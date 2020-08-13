@@ -151,7 +151,8 @@ main {
     .navbar {
         bottom: 0;
         width: 100vw;
-        height: 5rem;
+        /* height: 4rem; */
+        border-top: 2px solid var(--bg-secondary);
     }
 
     .logo {
@@ -164,6 +165,8 @@ main {
 
     .nav-link {
         justify-content: center;
+        width: 4.5rem;
+        height: 4.5rem;
     }
 
     .navbar:hover .link-text {
